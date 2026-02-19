@@ -1,0 +1,354 @@
+version 2
+JvmtiExport can_access_local_variables 1
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 1
+# 636 ciObject found
+instanceKlass tools/jackson/core/json/UTF8JsonGenerator
+ciInstanceKlass java/lang/Cloneable 1 0 7 100 1 100 1 1 1
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7bc800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7bc400
+instanceKlass  @bci com/mongodb/internal/time/Timeout awaitOn (Ljava/util/concurrent/locks/Condition;Ljava/util/function/Supplier;)V 17 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7beac0
+instanceKlass  @bci com/mongodb/internal/time/Timeout awaitOn (Ljava/util/concurrent/locks/Condition;Ljava/util/function/Supplier;)V 11 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7be898
+instanceKlass  @bci com/mongodb/internal/time/Timeout awaitOn (Ljava/util/concurrent/locks/Condition;Ljava/util/function/Supplier;)V 5 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7be670
+instanceKlass  @bci com/mongodb/internal/connection/DefaultConnectionPool$OpenConcurrencyLimiter acquirePermitOrGetAvailableOpenedConnection (ZLcom/mongodb/internal/time/Timeout;Lcom/mongodb/internal/time/StartTime;Lcom/mongodb/internal/TimeoutContext;)Lcom/mongodb/internal/connection/DefaultConnectionPool$PooledConnection; 157 <appendix> argL0 ; # com/mongodb/internal/connection/DefaultConnectionPool$OpenConcurrencyLimiter$$Lambda+0x000001539b7be450
+instanceKlass  @bci com/mongodb/internal/connection/DefaultConnectionPool$OpenConcurrencyLimiter acquirePermitOrGetAvailableOpenedConnection (ZLcom/mongodb/internal/time/Timeout;Lcom/mongodb/internal/time/StartTime;Lcom/mongodb/internal/TimeoutContext;)Lcom/mongodb/internal/connection/DefaultConnectionPool$PooledConnection; 144 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultConnectionPool$OpenConcurrencyLimiter$$Lambda+0x000001539b7be228
+instanceKlass  @bci com/mongodb/internal/connection/ConcurrentPool$StateAndPermits ready ()V 12 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/ConcurrentPool$StateAndPermits$$Lambda+0x000001539b7be000
+instanceKlass com/jobportal/utility/ErrorInfo
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver getExceptionHandlerMethod (Lorg/springframework/web/method/HandlerMethod;Ljava/lang/Exception;Lorg/springframework/web/context/request/ServletWebRequest;)Lorg/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod; 77 <appendix> argL0 ; # org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver$$Lambda+0x000001539b7bbca8
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7bc000
+instanceKlass  @bci com/mongodb/internal/time/Timeout checkedRun (Ljava/util/concurrent/TimeUnit;Lcom/mongodb/internal/function/CheckedRunnable;Lcom/mongodb/internal/function/CheckedConsumer;Lcom/mongodb/internal/function/CheckedRunnable;)V 16 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7bb568
+instanceKlass  @bci com/mongodb/internal/time/Timeout checkedRun (Ljava/util/concurrent/TimeUnit;Lcom/mongodb/internal/function/CheckedRunnable;Lcom/mongodb/internal/function/CheckedConsumer;Lcom/mongodb/internal/function/CheckedRunnable;)V 9 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7bb340
+instanceKlass  @bci com/mongodb/internal/time/Timeout checkedRun (Ljava/util/concurrent/TimeUnit;Lcom/mongodb/internal/function/CheckedRunnable;Lcom/mongodb/internal/function/CheckedConsumer;Lcom/mongodb/internal/function/CheckedRunnable;)V 3 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7bb118
+instanceKlass  @bci com/mongodb/internal/time/Timeout awaitOn (Ljava/util/concurrent/CountDownLatch;Ljava/util/function/Supplier;)V 17 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7baef0
+instanceKlass  @bci com/mongodb/internal/time/Timeout awaitOn (Ljava/util/concurrent/CountDownLatch;Ljava/util/function/Supplier;)V 11 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7bacc8
+instanceKlass com/mongodb/internal/function/CheckedConsumer
+instanceKlass  @bci com/mongodb/internal/time/Timeout awaitOn (Ljava/util/concurrent/CountDownLatch;Ljava/util/function/Supplier;)V 5 <appendix> member <vmtarget> ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7ba8a0
+instanceKlass com/mongodb/internal/function/CheckedRunnable
+instanceKlass  @bci com/mongodb/internal/connection/BaseCluster selectServer (Lcom/mongodb/selector/ServerSelector;Lcom/mongodb/internal/connection/OperationContext;)Lcom/mongodb/internal/connection/ServerTuple; 202 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/BaseCluster$$Lambda+0x000001539b7ba478
+instanceKlass  @bci com/mongodb/internal/time/Timeout earliest ([Lcom/mongodb/internal/time/Timeout;)Lcom/mongodb/internal/time/Timeout; 17 <appendix> argL0 ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7ba1e0
+instanceKlass  @bci com/mongodb/internal/time/Timeout earliest ([Lcom/mongodb/internal/time/Timeout;)Lcom/mongodb/internal/time/Timeout; 6 <appendix> argL0 ; # com/mongodb/internal/time/Timeout$$Lambda+0x000001539b7b9fb0
+instanceKlass  @bci com/mongodb/internal/connection/DefaultServerMonitor connect ()V 13 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultServerMonitor$$Lambda+0x000001539b7b9750
+instanceKlass com/mongodb/internal/logging/LogMessage$UnstructuredLogMessage
+instanceKlass  @bci com/mongodb/internal/logging/StructuredLogger log (Lcom/mongodb/internal/logging/LogMessage;)V 147 <appendix> member <vmtarget> ; # com/mongodb/internal/logging/StructuredLogger$$Lambda+0x000001539b7b9308
+instanceKlass  @bci com/mongodb/internal/logging/StructuredLogger log (Lcom/mongodb/internal/logging/LogMessage;)V 133 <appendix> member <vmtarget> ; # com/mongodb/internal/logging/StructuredLogger$$Lambda+0x000001539b7b90d0
+instanceKlass  @bci com/mongodb/internal/logging/StructuredLogger log (Lcom/mongodb/internal/logging/LogMessage;)V 119 <appendix> member <vmtarget> ; # com/mongodb/internal/logging/StructuredLogger$$Lambda+0x000001539b7b8ea8
+instanceKlass  @bci com/mongodb/internal/connection/BaseCluster logServerSelectionWaiting (Lcom/mongodb/internal/connection/OperationContext;Lcom/mongodb/connection/ClusterId;Lcom/mongodb/internal/time/Timeout;Lcom/mongodb/selector/ServerSelector;Lcom/mongodb/connection/ClusterDescription;)V 87 <appendix> argL0 ; # com/mongodb/internal/connection/BaseCluster$$Lambda+0x000001539b7b8c88
+instanceKlass  @bci com/mongodb/internal/connection/BaseCluster logServerSelectionWaiting (Lcom/mongodb/internal/connection/OperationContext;Lcom/mongodb/connection/ClusterId;Lcom/mongodb/internal/time/Timeout;Lcom/mongodb/selector/ServerSelector;Lcom/mongodb/connection/ClusterDescription;)V 82 <appendix> argL0 ; # com/mongodb/internal/connection/BaseCluster$$Lambda+0x000001539b7b8a68
+instanceKlass  @bci com/mongodb/internal/connection/BaseCluster logServerSelectionWaiting (Lcom/mongodb/internal/connection/OperationContext;Lcom/mongodb/connection/ClusterId;Lcom/mongodb/internal/time/Timeout;Lcom/mongodb/selector/ServerSelector;Lcom/mongodb/connection/ClusterDescription;)V 77 <appendix> argL0 ; # com/mongodb/internal/connection/BaseCluster$$Lambda+0x000001539b7b8848
+instanceKlass com/mongodb/internal/logging/LogMessage$Entry
+instanceKlass  @bci com/mongodb/internal/logging/LogMessage$Component <clinit> ()V 72 <appendix> argL0 ; # com/mongodb/internal/logging/LogMessage$Component$$Lambda+0x000001539b624000
+instanceKlass com/mongodb/internal/logging/LogMessage
+instanceKlass  @bci com/mongodb/internal/connection/BaseCluster selectServer (Lcom/mongodb/selector/ServerSelector;Lcom/mongodb/internal/connection/OperationContext;)Lcom/mongodb/internal/connection/ServerTuple; 141 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/BaseCluster$$Lambda+0x000001539b7afc48
+instanceKlass  @bci com/mongodb/internal/connection/DefaultServerMonitor$ServerMonitor waitForSignalOrTimeout ()J 8 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultServerMonitor$ServerMonitor$$Lambda+0x000001539b7afa20
+instanceKlass  @bci com/mongodb/internal/connection/SocketStream open (Lcom/mongodb/internal/connection/OperationContext;)V 47 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/SocketStream$$Lambda+0x000001539b7af7f8
+instanceKlass sun/net/util/SocketExceptions
+instanceKlass com/mongodb/event/ConnectionClosedEvent
+instanceKlass  @bci com/mongodb/internal/connection/DefaultConnectionPool$OpenConcurrencyLimiter signalClosedOrPaused ()V 13 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultConnectionPool$OpenConcurrencyLimiter$$Lambda+0x000001539b7aecd8
+instanceKlass  @bci com/mongodb/internal/connection/DefaultConnectionPool$BackgroundMaintenanceManager lambda$runOnceAndStop$1 ()V 8 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultConnectionPool$BackgroundMaintenanceManager$$Lambda+0x000001539b7aeab0
+instanceKlass  @bci com/mongodb/internal/connection/DefaultConnectionPool$BackgroundMaintenanceManager ignoreRejectedExectution (Ljava/lang/Runnable;)V 2 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultConnectionPool$BackgroundMaintenanceManager$$Lambda+0x000001539b7ae888
+instanceKlass  @bci com/mongodb/internal/connection/DefaultConnectionPool$BackgroundMaintenanceManager runOnceAndStop ()V 32 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultConnectionPool$BackgroundMaintenanceManager$$Lambda+0x000001539b7ae660
+instanceKlass com/mongodb/event/ConnectionPoolClearedEvent
+instanceKlass  @bci com/mongodb/internal/connection/ConcurrentPool$StateAndPermits pause (Ljava/util/function/Supplier;)V 6 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/ConcurrentPool$StateAndPermits$$Lambda+0x000001539b7ae228
+instanceKlass  @bci com/mongodb/internal/connection/DefaultConnectionPool$StateAndGeneration lambda$pauseAndIncrementGeneration$1 (Ljava/lang/Throwable;)Ljava/lang/Boolean; 23 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultConnectionPool$StateAndGeneration$$Lambda+0x000001539b7ae000
+instanceKlass  @bci com/mongodb/internal/connection/DefaultConnectionPool$StateAndGeneration pauseAndIncrementGeneration (Ljava/lang/Throwable;)Z 11 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultConnectionPool$StateAndGeneration$$Lambda+0x000001539b7addd8
+instanceKlass ch/qos/logback/classic/spi/ClassPackagingData
+instanceKlass ch/qos/logback/classic/spi/STEUtil
+instanceKlass ch/qos/logback/classic/spi/PackagingDataCalculator
+instanceKlass ch/qos/logback/classic/spi/ThrowableProxyUtil
+instanceKlass ch/qos/logback/classic/spi/StackTraceElementProxy
+instanceKlass ch/qos/logback/classic/spi/ThrowableProxy
+instanceKlass  @bci com/mongodb/internal/connection/DefaultServerMonitor$ServerMonitor lookupServerDescription (Lcom/mongodb/connection/ServerDescription;)Lcom/mongodb/connection/ServerDescription; 117 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/DefaultServerMonitor$ServerMonitor$$Lambda+0x000001539b7ac850
+instanceKlass com/mongodb/event/ServerHeartbeatFailedEvent
+instanceKlass com/mongodb/internal/thread/InterruptionUtil
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b7c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b7800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b7400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b7000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b6c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b6800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b6400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b6000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b5c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b5800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b5400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b5000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b4c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b4800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b4400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b4000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b3c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b3800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b3400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b3000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b2c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b2800
+instanceKlass org/springframework/http/ResponseEntity$DefaultBuilder
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b2400
+instanceKlass  @bci com/jobportal/service/ProfileServiceImpl updateProfile (Lcom/jobportal/dto/ProfileDTO;)Lcom/jobportal/dto/ProfileDTO; 13 <appendix> argL0 ; # com/jobportal/service/ProfileServiceImpl$$Lambda+0x000001539b79da58
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b2000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b1c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b1800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b1400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b1000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b0c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b0800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7b0400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x000001539b7b0000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x000001539b7abc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7ab800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x000001539b7ab400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7ab000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7aac00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7aa800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7aa400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7aa000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7a9c00
+instanceKlass  @bci java/util/regex/Pattern SingleI (II)Ljava/util/regex/Pattern$BmpCharPredicate; 2 <appendix> member <vmtarget> ; # java/util/regex/Pattern$$Lambda+0x000001539b4f3950
+instanceKlass java/time/format/Parsed
+instanceKlass java/time/format/DateTimeParseContext
+instanceKlass java/text/ParsePosition
+# instanceKlass java/time/LocalDateTime$$Lambda+0x000001539b4f30a0
+instanceKlass  @bci java/time/LocalDateTime parse (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/LocalDateTime; 9 <appendix> argL0 ; # java/time/LocalDateTime$$Lambda+0x000001539b4f2e80
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7a9800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7a9400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7a9000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7a8c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7a8800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x000001539b7a8400
+instanceKlass tools/jackson/databind/deser/BasicDeserializerFactory$ContainerDefaultMappings
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b7a8000
+instanceKlass org/springframework/data/mongodb/core/mapping/event/AfterSaveCallback
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation executeBulkWriteBatch (Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/WriteConcern;Lcom/mongodb/internal/binding/WriteBinding;Lcom/mongodb/internal/connection/Connection;)Lcom/mongodb/bulk/BulkWriteResult; 212 <appendix> argL0 ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a7328
+instanceKlass  @bci com/mongodb/internal/operation/BulkWriteBatch getInsertedItems (Lorg/bson/BsonDocument;)Ljava/util/List; 60 <appendix> argL0 ; # com/mongodb/internal/operation/BulkWriteBatch$$Lambda+0x000001539b7a6c60
+instanceKlass  @bci com/mongodb/internal/operation/BulkWriteBatch getInsertedItems (Lorg/bson/BsonDocument;)Ljava/util/List; 50 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/BulkWriteBatch$$Lambda+0x000001539b7a6a08
+instanceKlass  @bci com/mongodb/internal/operation/BulkWriteBatch getInsertedItems (Lorg/bson/BsonDocument;)Ljava/util/List; 10 <appendix> argL0 ; # com/mongodb/internal/operation/BulkWriteBatch$$Lambda+0x000001539b7a67c8
+instanceKlass org/bson/codecs/BsonDocumentWrapperCodec
+instanceKlass  @bci com/mongodb/internal/connection/SplittablePayload getPayload ()Ljava/util/List; 10 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/SplittablePayload$$Lambda+0x000001539b7a5de0
+instanceKlass  @bci com/mongodb/internal/connection/CommandMessage startOpMsgSectionWithPayloadType1 (Lcom/mongodb/internal/connection/ByteBufferBsonOutput;Ljava/lang/String;)Lcom/mongodb/internal/connection/CommandMessage$FinishOpMsgSectionWithPayloadType1; 22 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/CommandMessage$$Lambda+0x000001539b7a5ba0
+instanceKlass com/mongodb/internal/connection/CommandMessage$FinishOpMsgSectionWithPayloadType1
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation executeBulkWriteBatch (Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/WriteConcern;Lcom/mongodb/internal/binding/WriteBinding;Lcom/mongodb/internal/connection/Connection;)Lcom/mongodb/bulk/BulkWriteResult; 25 <appendix> argL0 ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a5780
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation executeBulkWriteBatch (Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/WriteConcern;Lcom/mongodb/internal/binding/WriteBinding;Lcom/mongodb/internal/connection/Connection;)Lcom/mongodb/bulk/BulkWriteResult; 7 <appendix> argL0 ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a5560
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation$BulkWriteTracker attach (Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/internal/operation/MixedBulkWriteOperation$BulkWriteTracker;)V 38 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/MixedBulkWriteOperation$BulkWriteTracker$$Lambda+0x000001539b7a5338
+instanceKlass  @bci com/mongodb/internal/operation/BulkWriteBatch <init> (Lcom/mongodb/MongoNamespace;Lcom/mongodb/connection/ConnectionDescription;ZLcom/mongodb/WriteConcern;Ljava/lang/Boolean;ZLcom/mongodb/internal/connection/BulkWriteBatchCombiner;Ljava/util/List;Lcom/mongodb/internal/connection/OperationContext;Lorg/bson/BsonValue;Lorg/bson/BsonDocument;)V 357 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/BulkWriteBatch$$Lambda+0x000001539b7a5100
+instanceKlass com/mongodb/internal/connection/SplittablePayload$WriteRequestEncoder
+instanceKlass com/mongodb/internal/validator/MappedFieldNameValidator
+instanceKlass com/mongodb/internal/validator/ReplacingDocumentFieldNameValidator
+instanceKlass com/mongodb/internal/connection/IndexMap
+instanceKlass  @bci com/mongodb/internal/connection/BulkWriteBatchCombiner <init> (Lcom/mongodb/ServerAddress;ZLcom/mongodb/WriteConcern;)V 52 <appendix> argL0 ; # com/mongodb/internal/connection/BulkWriteBatchCombiner$$Lambda+0x000001539b7a3d48
+instanceKlass com/mongodb/WriteError
+instanceKlass  @bci com/mongodb/internal/connection/BulkWriteBatchCombiner <init> (Lcom/mongodb/ServerAddress;ZLcom/mongodb/WriteConcern;)V 33 <appendix> argL0 ; # com/mongodb/internal/connection/BulkWriteBatchCombiner$$Lambda+0x000001539b7a36c0
+instanceKlass com/mongodb/bulk/BulkWriteInsert
+instanceKlass  @bci com/mongodb/internal/connection/BulkWriteBatchCombiner <init> (Lcom/mongodb/ServerAddress;ZLcom/mongodb/WriteConcern;)V 14 <appendix> argL0 ; # com/mongodb/internal/connection/BulkWriteBatchCombiner$$Lambda+0x000001539b7a3280
+instanceKlass com/mongodb/bulk/BulkWriteUpsert
+instanceKlass com/mongodb/internal/connection/BulkWriteBatchCombiner
+instanceKlass com/mongodb/internal/bulk/WriteRequestWithIndex
+instanceKlass com/mongodb/internal/operation/BulkWriteBatch
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation lambda$execute$2 (Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/internal/binding/WriteBinding;Lcom/mongodb/internal/TimeoutContext;Lcom/mongodb/internal/binding/ConnectionSource;Lcom/mongodb/internal/connection/Connection;)Lcom/mongodb/bulk/BulkWriteResult; 93 <appendix> argL0 ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a27b0
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation lambda$execute$3 (Lcom/mongodb/internal/binding/WriteBinding;Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/internal/TimeoutContext;)Lcom/mongodb/bulk/BulkWriteResult; 16 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a2578
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation lambda$execute$3 (Lcom/mongodb/internal/binding/WriteBinding;Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/internal/TimeoutContext;)Lcom/mongodb/bulk/BulkWriteResult; 6 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a2350
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation decorateWriteWithRetries (Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/internal/connection/OperationContext;Ljava/util/function/Supplier;)Ljava/util/function/Supplier; 18 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a2128
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation decorateWriteWithRetries (Lcom/mongodb/internal/async/function/RetryState;Lcom/mongodb/internal/connection/OperationContext;Ljava/util/function/Supplier;)Ljava/util/function/Supplier; 10 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a1ed0
+instanceKlass  @bci com/mongodb/internal/operation/CommandOperationHelper onRetryableWriteAttemptFailure (Lcom/mongodb/internal/connection/OperationContext;)Ljava/util/function/BinaryOperator; 1 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/CommandOperationHelper$$Lambda+0x000001539b7a1c80
+instanceKlass  @bci com/mongodb/internal/operation/MixedBulkWriteOperation execute (Lcom/mongodb/internal/binding/WriteBinding;)Lcom/mongodb/bulk/BulkWriteResult; 40 <appendix> member <vmtarget> ; # com/mongodb/internal/operation/MixedBulkWriteOperation$$Lambda+0x000001539b7a1a58
+instanceKlass com/mongodb/bulk/BulkWriteResult
+instanceKlass com/mongodb/internal/operation/MixedBulkWriteOperation$BulkWriteTracker
+instanceKlass com/mongodb/internal/async/function/AsyncCallbackRunnable
+instanceKlass com/mongodb/internal/async/function/AsyncCallbackSupplier
+instanceKlass com/mongodb/internal/operation/MixedBulkWriteOperation
+instanceKlass com/mongodb/client/model/BulkWriteOptions
+instanceKlass com/mongodb/client/model/WriteModel
+instanceKlass  @bci org/springframework/data/mongodb/core/MongoTemplate saveDocument (Ljava/lang/String;Lorg/bson/Document;Ljava/lang/Class;)Ljava/lang/Object; 42 <appendix> member <vmtarget> ; # org/springframework/data/mongodb/core/MongoTemplate$$Lambda+0x000001539b79f948
+instanceKlass org/springframework/data/mongodb/core/mapping/event/BeforeSaveCallback
+instanceKlass  @bci org/springframework/data/convert/MappingContextTypeInformationMapper createAliasFor (Lorg/springframework/data/core/TypeInformation;)Lorg/springframework/data/mapping/Alias; 11 <appendix> member <vmtarget> ; # org/springframework/data/convert/MappingContextTypeInformationMapper$$Lambda+0x000001539b79f500
+instanceKlass org/springframework/data/annotation/ReadOnlyProperty
+instanceKlass org/springframework/data/mongodb/core/convert/LazyLoadingProxy
+instanceKlass org/springframework/data/mongodb/core/mapping/event/BeforeConvertCallback
+instanceKlass org/springframework/data/mongodb/core/EntityOperations$MappedEntity
+instanceKlass  @bci org/springframework/data/mapping/model/PersistentEntityIsNewStrategy <init> (Lorg/springframework/data/mapping/PersistentEntity;Z)V 34 <appendix> member <vmtarget> ; # org/springframework/data/mapping/model/PersistentEntityIsNewStrategy$$Lambda+0x000001539b79e638
+instanceKlass org/springframework/data/mapping/model/PersistentEntityIsNewStrategy
+instanceKlass org/springframework/data/domain/Persistable
+instanceKlass java/util/Base64$Decoder
+instanceKlass  @bci com/jobportal/service/JobServiceImpl applyJob (Ljava/lang/Long;Lcom/jobportal/dto/ApplicantDTO;)V 302 <appendix> member <vmtarget> ; # com/jobportal/service/JobServiceImpl$$Lambda+0x000001539b79d800
+instanceKlass  @bci com/jobportal/service/JobServiceImpl applyJob (Ljava/lang/Long;Lcom/jobportal/dto/ApplicantDTO;)V 137 <appendix> argL0 ; # com/jobportal/service/JobServiceImpl$$Lambda+0x000001539b617c40
+instanceKlass org/springframework/beans/PropertyAccessorFactory
+instanceKlass org/springframework/validation/annotation/ValidationAnnotationUtils
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver readWithMessageConverters (Lorg/springframework/http/HttpInputMessage;Lorg/springframework/core/MethodParameter;Ljava/lang/reflect/Type;)Ljava/lang/Object; 666 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver$$Lambda+0x000001539b79b950
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b79d400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b79d000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b79cc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b79c800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b79c400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b79c000
+instanceKlass tools/jackson/core/util/InternalJacksonUtil
+instanceKlass tools/jackson/core/io/NumberInput
+instanceKlass tools/jackson/databind/deser/bean/PropertyValue
+instanceKlass tools/jackson/databind/deser/bean/PropertyValueBuffer
+instanceKlass tools/jackson/core/json/ByteSourceJsonBootstrapper
+instanceKlass tools/jackson/databind/deser/bean/PropertyBasedCreator
+instanceKlass tools/jackson/databind/util/CompactStringObjectMap
+instanceKlass com/fasterxml/jackson/annotation/JsonEnumDefaultValue
+instanceKlass tools/jackson/databind/util/EnumResolver
+instanceKlass tools/jackson/databind/deser/jdk/NumberDeserializers
+instanceKlass tools/jackson/databind/deser/bean/BeanPropertyMap
+instanceKlass com/fasterxml/jackson/annotation/JsonAlias
+instanceKlass tools/jackson/databind/deser/ReadableObjectId$Referring
+instanceKlass tools/jackson/databind/util/ViewMatcher
+instanceKlass tools/jackson/databind/deser/impl/NullsConstantProvider
+instanceKlass tools/jackson/databind/util/IgnorePropertiesUtil
+instanceKlass tools/jackson/databind/deser/BeanDeserializerBuilder
+instanceKlass tools/jackson/databind/deser/bean/CreatorCandidate$Param
+instanceKlass tools/jackson/databind/deser/bean/CreatorCandidate
+instanceKlass tools/jackson/databind/deser/bean/CreatorCollector
+instanceKlass tools/jackson/core/TokenStreamLocation
+instanceKlass tools/jackson/databind/deser/jdk/JDKValueInstantiators
+instanceKlass tools/jackson/databind/annotation/JsonValueInstantiator
+instanceKlass tools/jackson/databind/jsontype/impl/SubTypeValidator
+instanceKlass tools/jackson/databind/deser/jdk/JDKMiscDeserializers
+instanceKlass tools/jackson/core/filter/TokenFilter
+instanceKlass org/springframework/http/converter/json/MappingJacksonInputMessage
+instanceKlass  @bci org/springframework/http/converter/AbstractJacksonHttpMessageConverter readJavaType (Ltools/jackson/databind/JavaType;Lorg/springframework/http/HttpInputMessage;Ljava/util/Map;)Ljava/lang/Object; 42 <appendix> member <vmtarget> ; # org/springframework/http/converter/AbstractJacksonHttpMessageConverter$$Lambda+0x000001539b785d10
+instanceKlass org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage
+instanceKlass org/springframework/web/bind/annotation/MatrixVariable
+instanceKlass jakarta/servlet/http/Cookie
+instanceKlass jakarta/servlet/http/HttpServlet$TomcatHack
+instanceKlass  @bci com/jobportal/service/JobServiceImpl getJob (Ljava/lang/Long;)Lcom/jobportal/dto/JobDTO; 10 <appendix> argL0 ; # com/jobportal/service/JobServiceImpl$$Lambda+0x000001539b617a20
+instanceKlass sun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl
+instanceKlass  @bci com/jobportal/dto/ApplicantDTO toString ()Ljava/lang/String; 49 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$MH+0x000001539b782400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b782000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b781c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b781800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b781400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b781000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b780c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b780800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b780400
+instanceKlass java/util/Base64$Encoder
+instanceKlass java/util/Base64
+instanceKlass  @bci com/jobportal/entity/Job toDTO ()Lcom/jobportal/dto/JobDTO; 36 <appendix> argL0 ; # com/jobportal/entity/Job$$Lambda+0x000001539b6175e8
+instanceKlass  @bci com/jobportal/service/JobServiceImpl getAllJobs ()Ljava/util/List; 14 <appendix> argL0 ; # com/jobportal/service/JobServiceImpl$$Lambda+0x000001539b6173a8
+instanceKlass com/jobportal/entity/Applicant__Accessor_fjfzef
+instanceKlass com/jobportal/entity/Applicant__Instantiator_fjfzef
+instanceKlass org/bson/io/ByteBufferBsonInput$1
+instanceKlass org/bson/AbstractBsonReader$Mark
+instanceKlass  @bci org/springframework/data/mongodb/repository/support/SimpleMongoRepository findAll (Lorg/springframework/data/mongodb/core/query/Query;)Ljava/util/List; 18 <appendix> member <vmtarget> ; # org/springframework/data/mongodb/repository/support/SimpleMongoRepository$$Lambda+0x000001539b777848
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b780000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77fc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77f800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77f400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77f000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77ec00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77e800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77e400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77e000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77dc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77d800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77d400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77d000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77cc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77c800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77c400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77c000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77bc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77b800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77b400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77b000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77ac00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77a800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77a400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b77a000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b779c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b779800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b779400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b779000
+instanceKlass  @bci com/mongodb/internal/connection/PowerOfTwoBufferPool$BufferPool prune ()V 10 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x000001539b778c00
+instanceKlass  @bci com/mongodb/internal/connection/PowerOfTwoBufferPool$BufferPool prune ()V 10 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000001539b778800
+instanceKlass  @bci com/mongodb/internal/connection/PowerOfTwoBufferPool$BufferPool prune ()V 10 <appendix> member <vmtarget> ; # com/mongodb/internal/connection/PowerOfTwoBufferPool$BufferPool$$Lambda+0x000001539b7773f8
+instanceKlass  @cpi com/mongodb/internal/connection/PowerOfTwoBufferPool$BufferPool 98 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000001539b778400
+instanceKlass  @bci com/mongodb/internal/connection/PowerOfTwoBufferPool prune ()V 9 <appendix> argL0 ; # com/mongodb/internal/connection/PowerOfTwoBufferPool$$Lambda+0x000001539b7771c8
+instanceKlass java/lang/foreign/MemorySegment
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000001539b778000
+instanceKlass org/apache/coyote/NonPipeliningProcessor
+instanceKlass org/springframework/security/web/authentication/WebAuthenticationDetails
+instanceKlass org/springframework/security/core/Authentication$Builder
+instanceKlass  @bci org/springframework/http/HttpStatusCode valueOf (I)Lorg/springframework/http/HttpStatusCode; 19 <appendix> member <vmtarget> ; # org/springframework/http/HttpStatusCode$$Lambda+0x000001539b776790
+# instanceKlass org/springframework/http/HttpStatusCode$$Lambda+0x000001539b776570
+# instanceKlass org/springframework/web/method/annotation/SessionAttributesHandler$$Lambda+0x000001539b776338
+instanceKlass  @bci org/springframework/web/method/annotation/SessionAttributesHandler storeAttributes (Lorg/springframework/web/context/request/WebRequest;Ljava/util/Map;)V 3 <appendix> member <vmtarget> ; # org/springframework/web/method/annotation/SessionAttributesHandler$$Lambda+0x000001539b776100
+instanceKlass org/apache/tomcat/util/buf/HexUtils
+instanceKlass sun/nio/cs/Surrogate
+instanceKlass sun/nio/cs/Surrogate$Parser
+instanceKlass org/apache/coyote/http11/Constants
+instanceKlass com/fasterxml/jackson/annotation/JacksonAnnotation
+instanceKlass tools/jackson/databind/annotation/JacksonStdImpl
+instanceKlass tools/jackson/core/io/NumberOutput
+instanceKlass  @bci tools/jackson/databind/util/internal/UnreflectHandleSupplier initialize ()Ljava/lang/invoke/MethodHandle; 27 <appendix> member <vmtarget> ; # tools/jackson/databind/util/internal/UnreflectHandleSupplier$$Lambda+0x000001539b775270
+# instanceKlass tools/jackson/databind/util/internal/UnreflectHandleSupplier$$Lambda+0x000001539b775048
+instanceKlass tools/jackson/databind/ser/impl/PropertySerializerMap$SerializerAndMapResult
+instanceKlass tools/jackson/databind/introspect/EnumNamingStrategyFactory
+instanceKlass tools/jackson/databind/annotation/EnumNaming
+instanceKlass tools/jackson/databind/util/EnumDefinition
+instanceKlass tools/jackson/databind/util/EnumValues
+instanceKlass tools/jackson/databind/introspect/MethodGenericTypeResolver
+instanceKlass tools/jackson/databind/ser/jdk/NumberSerializers$1
+instanceKlass com/fasterxml/jackson/annotation/JsonFilter
+instanceKlass com/fasterxml/jackson/annotation/JsonIncludeProperties$Value
+instanceKlass com/fasterxml/jackson/annotation/JsonIncludeProperties
+instanceKlass com/fasterxml/jackson/annotation/JsonIgnoreProperties$Value
+instanceKlass com/fasterxml/jackson/annotation/JsonIgnoreProperties
+instanceKlass tools/jackson/databind/annotation/JsonAppend
+instanceKlass tools/jackson/databind/ser/PropertyBuilder$1
+instanceKlass tools/jackson/databind/BeanProperty$Std
+instanceKlass com/fasterxml/jackson/annotation/JsonTypeId
+instanceKlass com/fasterxml/jackson/annotation/JsonInclude
+instanceKlass tools/jackson/databind/ser/PropertyBuilder
+instanceKlass com/fasterxml/jackson/annotation/JsonIgnoreType
+instanceKlass tools/jackson/databind/ser/BeanSerializerBuilder
+instanceKlass tools/jackson/databind/util/BeanUtil
+instanceKlass tools/jackson/databind/PropertyMetadata
+instanceKlass com/fasterxml/jackson/annotation/JsonPropertyDescription
+instanceKlass com/fasterxml/jackson/annotation/JsonPropertyOrder
+instanceKlass tools/jackson/databind/annotation/JsonNaming
+instanceKlass com/fasterxml/jackson/annotation/JacksonInject
+instanceKlass tools/jackson/databind/introspect/POJOPropertyBuilder$2
+instanceKlass tools/jackson/databind/introspect/POJOPropertyBuilder$1
+instanceKlass tools/jackson/databind/introspect/PotentialCreator
+instanceKlass com/fasterxml/jackson/annotation/JsonCreator
+# instanceKlass tools/jackson/databind/introspect/AnnotatedCreatorCollector$$Lambda+0x000001539b76d738
+instanceKlass  @bci tools/jackson/databind/introspect/AnnotatedCreatorCollector collect (Ljava/lang/Class;)Ltools/jackson/databind/introspect/AnnotatedClass$Creators; 72 <appendix> member <vmtarget> ; # tools/jackson/databind/introspect/AnnotatedCreatorCollector$$Lambda+0x000001539b76d4e0
+# instanceKlass tools/jackson/databind/introspect/AnnotatedCreatorCollector$$Lambda+0x000001539b76d288
+instanceKlass  @bci tools/jackson/databind/introspect/AnnotatedCreatorCollector collect (Ljava/lang/Class;)Ltools/jackson/databind/introspect/AnnotatedClass$Creators; 59 <appendix> member <vmtarget> ; # tools/jackson/databind/introspect/AnnotatedCreatorCollector$$Lambda+0x000001539b76d030
+instanceKlass com/fasterxml/jackson/annotation/JsonSetter
+instanceKlass  @bci tools/jackson/databind/util/internal/UnreflectHandleSupplier <init> (Ljava/lang/invoke/MethodType;)V 6 <appendix> member <vmtarget> ; # tools/jackson/databind/util/internal/UnreflectHandleSupplier$$Lambda+0x000001539b76c7a0
+# instanceKlass tools/jackson/databind/util/internal/UnreflectHandleSupplier$$Lambda+0x000001539b76c578
+instanceKlass tools/jackson/databind/util/internal/UnreflectHandleSupplier
+instanceKlass tools/jackson/databind/introspect/AnnotatedMethodCollector$MethodBuilder
+instanceKlass tools/jackson/databind/introspect/MemberKey
+instanceKlass tools/jackson/databind/introspect/POJOPropertyBuilder$Linked
+instanceKlass tools/jackson/databind/AnnotationIntrospector$ReferenceProperty
+instanceKlass tools/jackson/databind/introspect/POJOPropertyBuilder$WithMember
+instanceKlass com/fasterxml/jackson/annotation/JsonIgnore
+instanceKlass com/fasterxml/jackson/annotation/JsonAutoDetect$1
+instanceKlass com/fasterxml/jackson/annotation/JsonProperty
+instanceKlass com/fasterxml/jackson/annotation/JsonGetter
+instanceKlass tools/jackson/databind/PropertyName
+instanceKlass com/fasterxml/jackson/annotation/JsonAnySetter
+instanceKlass com/fasterxml/jackson/annotation/JsonAnyGetter
+instanceKlass com/fasterxml/jackson/annotation/JsonValue
+instanceKlass com/fasterxml/jackson/annotation/JsonKey
+instanceKlass tools/jackson/databind/introspect/AnnotatedFieldCollector$FieldBuilder
+instanceKlass tools/jackson/databind/introspect/TypeResolutionContext$Basic
+instanceKlass tools/jackson/databind/introspect/AnnotationMap
+instanceKlass tools/jackson/databind/introspect/CollectorBase
+instanceKlass tools/jackson/databind/introspect/PotentialCreators
+instanceKlass com/fasterxml/jackson/annotation/JsonIdentityInfo
+instanceKlass com/fasterxml/jackson/annotation/JsonAutoDetect
+instanceKlass tools/jackson/databind/introspect/POJOPropertiesCollector
+instanceKlass tools/jackson/databind/ext/sql/JavaSqlTypeHandlerFactory
+instanceKlass org/w3c/dom/Document
+instanceKlass org/w3c/dom/Node
+instanceKlass tools/jackson/databind/ext/OptionalHandlerFactory
+instanceKlass java/util/stream/DoubleStream
+instanceKlass java/util/stream/LongStream
+instanceKlass tools/jackson/databind/ser/jdk/JDKMiscSerializers
+instanceKlass tools/jackson/databind/ser/jdk/NumberSerializers
+instanceKlass tools/jackson/databind/ser/jdk/JDKCoreSerializers
